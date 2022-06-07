@@ -2,7 +2,7 @@
 #FROM registry.redhat.io/ansible-automation-platform-21/ee-supported-rhel8:$AAP_IMAGE_TAG
 
 # renovate: datasource=docker depName=quay.io/prometheus/node-exporter
-ARG NODEEXPORTER_VERSION=v1.2.2
+ARG NODEEXPORTER_VERSION=v1.3.1
 
 FROM quay.io/prometheus/node-exporter:${NODEEXPORTER_VERSION}
 
